@@ -1,0 +1,62 @@
+.box1-color {
+  background-color: #d1d1d1;
+}
+
+.box2-color {
+  background-color: #d2d2d2;
+}
+
+.box3-color {
+  background-color: #d3d3d3;
+}
+
+.box4-color {
+  background-color: #d4d4d4;
+}
+
+.box5-color {
+  background-color: #d5d5d5;
+}
+
+.box6-color {
+  background-color: #d6d6d6;
+}
+
+.box1, .box6-style, .box5-style, .box4-style, .box3-style, .box2-style, .box1-style {
+  padding: 50px;
+  padding-top: 80px;
+  position: absolute;
+  border-radius: 10%;
+  width: 220px;
+  height: 220px;
+}
+
+.box1-style {
+  left: 250px;
+  top: 300px;
+}
+
+.box2-style {
+  left: 750px;
+  top: 300px;
+}
+
+.box3-style {
+  left: 1250px;
+  top: 300px;
+}
+
+.box4-style {
+  left: 1250px;
+  top: 600px;
+}
+
+.box5-style {
+  left: 750px;
+  top: 600px;
+}
+
+.box6-style {
+  left: 250px;
+  top: 600px;
+}/*# sourceMappingURL=features.css.map */

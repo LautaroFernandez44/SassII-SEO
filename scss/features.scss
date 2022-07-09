@@ -1,0 +1,82 @@
+$colores: (
+    box1:#d1d1d1, 
+    box2:#d2d2d2, 
+    box3:#d3d3d3, 
+    box4:#d4d4d4, 
+    box5:#d5d5d5, 
+    box6:#d6d6d6
+);
+
+.box1-color{
+    background-color: map-get($colores , box1 )
+    
+}
+
+.box2-color{
+    background-color: map-get($colores , box2 )
+}
+
+.box3-color{
+    background-color: map-get($colores , box3 )
+}
+
+.box4-color{
+    background-color: map-get($colores , box4 )
+}
+
+.box5-color{
+    background-color: map-get($colores , box5 )
+}
+
+.box6-color{
+    background-color: map-get($colores , box6 )
+}
+
+
+
+.box1{
+    padding: 50px;
+    padding-top: 80px;
+    position: absolute;
+    border-radius: 10%;
+    width: 220px;
+    height: 220px;
+}
+
+@mixin leftytop ($izquierda,$arriba) {
+    left: $izquierda;
+    top: $arriba;
+    
+}
+
+.box1-style{
+    @extend .box1;
+    @include leftytop(250px,300px)
+}
+
+.box2-style{
+    @extend .box1;
+    @include leftytop(750px,300px)
+    
+}
+
+.box3-style{
+    @extend .box1;
+    @include leftytop(1250px,300px)  
+}
+
+.box4-style{
+    @extend .box1;
+    @include leftytop(1250px,600px)  
+}
+
+.box5-style{
+    @extend .box1;
+    @include leftytop(750px,600px)
+}
+
+.box6-style{
+    @extend .box1;
+    @include leftytop(250px,600px) 
+}
+
